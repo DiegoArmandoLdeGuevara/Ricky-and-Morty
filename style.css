@@ -106,3 +106,8 @@ button:active{
     background-color: red;
 
 }
+
+.text-cont-title{
+    width: 10rem;
+    text-align: center;
+}
