@@ -20,12 +20,12 @@ body{
     align-items: center;
 }
 h1{
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-align: center;
-    color: #fff;
+    color: rgb(209, 213, 219,0726);
     font-size: 4rem;
     font-weight: 700;
-    color: #f5f5f5;
+    color: #29ec6a;
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
@@ -85,9 +85,10 @@ img{
     width: 135%;
 }
 button{
-    width: 1rem;
-    height: 3rem;
-    border: #fff;
+    width: 2rem;
+    height: 4rem;
+    border: none;
+    margin-top: 35px;
 }
 button:hover{
     cursor: pointer;
@@ -99,14 +100,24 @@ button:active{
 
 #next{
     clip-path: polygon(99% 52%, 0 0, 0 100%);
-    background-color: green;
+    background-color: rgb(255, 0, 0);
+    margin-left: 16px;
+}
+#next:hover{
+    background-color: rgb(238, 54, 54);
 }
 #pre{
     clip-path: polygon(0 57%, 100% 0, 100% 100%);
-    background-color: red;
+    background-color: rgb(0, 255, 0);
+    margin-right: 16px;
 
 }
-
+.data_api{
+    color: green;
+}
+#pre:hover{
+    background-color: green
+}
 .text-cont-title{
     width: 10rem;
     text-align: center;
